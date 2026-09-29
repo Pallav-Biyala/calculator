@@ -1,6 +1,6 @@
 #include <iostream>
 #include <bits/stdc++.h>
-#include "mathsfuncs.h"
+#include "mathfuncs.h"
 using namespace std;
 
 int add(int a, int b) {
