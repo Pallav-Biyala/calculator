@@ -1,13 +1,14 @@
 #include <iostream>
-#include <bits/stdc++.h>
+#include "mathfuncs.h"
+
 using namespace std;
 
-int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+int main() {
+    int a = 20, b = 5;
+    cout << "Addition: " << add(a, b) << endl;
+    cout << "Subtraction: " << sub(a, b) << endl;
+    cout << "Multiplication: " << mult(a, b) << endl;
+    cout << "Division: " << division(a, b) << endl;
 
-    int a; int b;
-    cin>>a;
-    cin>>b;
     return 0;
 }
