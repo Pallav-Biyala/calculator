@@ -17,3 +17,9 @@ jobs:
 
       - name: Run calculator
         run: ./calculator
+
+      - name: Compile tests
+        run: g++ test_mathfuncs.cpp mathfuncs.cpp -o test_mathfuncs
+
+      - name: Run tests
+        run: ./test_mathfuncs
